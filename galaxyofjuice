@@ -1,0 +1,11 @@
+<IfModule mod_autoindex.c>
+    Options -Indexes
+</IfModule>
+
+# Blok akses langsung ke file sensitif
+<FilesMatch "\.(sql|ini|sh|bak|git|php~|htaccess)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+ErrorDocument 403 '<p>.galaxy of juice</p>'
+ErrorDocument 404 '<p>.galaxy of juice</p>'
