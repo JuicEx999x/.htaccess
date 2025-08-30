@@ -7,5 +7,5 @@
     Order allow,deny
     Deny from all
 </FilesMatch>
-ErrorDocument 403 '<p>.galaxy of juice</p>'
-ErrorDocument 404 '<p>.galaxy of juice</p>'
+ErrorDocument 403 './galaxy of juice'
+ErrorDocument 404 './galaxy of juice'
