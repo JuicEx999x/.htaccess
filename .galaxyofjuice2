@@ -10,7 +10,7 @@
     Deny from all
 </FilesMatch>
 
-<FilesMatch "^(index|api)\.php$">
+<FilesMatch "^(index)\.php$">
     Order allow,deny
     Allow from all
 </FilesMatch>
